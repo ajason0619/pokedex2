@@ -12,7 +12,7 @@ const CaughtPokemon = () => {
   };
   return (
     <div>
-      <p>Caught {count} pokemon</p>
+      <p>Caught {count} Pokemon</p>
       <ul>
         {cart.map((item) => (
           <li>{item}</li>
